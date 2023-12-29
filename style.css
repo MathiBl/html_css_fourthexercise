@@ -1,4 +1,5 @@
 * {
+    /* border: 1px solid red; */
     font-family: Arial, Helvetica, sans-serif
 }
 
@@ -7,11 +8,43 @@
     flex-direction: column;
     width: 90%;
     height: 90%;
+    margin: 20px auto;
+}
+
+.container_menu {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 15px;
+    border-bottom: 1px solid gray;
+    vertical-align: middle;
+}
+
+.logo_bmw {
+    width: 60px;
+    height: 60px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    color: #666666;
+    font-weight: bold;
+    text-decoration: none;
+    /* vertical-align: middle; */
+}
+
+.menu_topright {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    right: 10%;
+    color: #0066B1;
 }
 
 h1 {
     color: #262626;
     font-family: Arial, Helvetica, sans-serif;
+    margin-top: 80px;
 }
 
 .container_filters {
@@ -19,4 +52,117 @@ h1 {
     flex-direction: row;
     flex-wrap: wrap;
     width: 400px;
+}
+
+.filters button {
+    background-color: white;
+}
+
+.car_selection_menu {
+    /* position: fixed; */
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+.car_selection_menu a {
+    margin-left: 5px;
+    margin-right: 20px;
+    padding-bottom: 20px;
+    border: none;
+    color: #4D4D4D;
+    /* background-color: white; */
+    text-decoration: none;
+    font-weight: bold;
+    /* padding: 10px; */
+}
+
+.car_selection_menu a:hover {
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    padding-bottom: 17px;
+    border-bottom: 3px solid black;
+}
+
+.car_selection_menu a:focus {
+    color: black;
+    font-weight: bold;
+    padding-bottom: 17px;
+    border-bottom: 3px solid black;
+}
+
+/* .car_selection_menu a:hover::after {
+    border-bottom: 3px solid black;
+    width: 60px;
+    content: '';
+    height: auto;
+    z-index: 1;
+    padding: 12px;
+    position: absolute;
+    margin-left: -80px;
+} */
+
+h2 {
+    font-weight: normal;
+}
+
+.container_cars button {
+    border: none;
+    background-color: white;
+    width: 20%;
+    margin-right: 55px;
+}
+
+.container_cars button:hover {
+    .cars_img {
+        transform: scale(1.1);
+        transition: all 0.2s;
+    }
+}
+
+.car_category {
+    margin-top: 50px;
+    border-bottom: 1px solid #E6E6E6;
+}
+
+.car_category button:last-child {
+    margin-bottom: 30px;
+}
+
+.cars_info {
+    text-decoration: none;
+    line-height: 0;
+}
+
+.cars_info h5 {
+    text-align: left;
+    color: #262626;
+    font-size: 15px;
+    /* line-height: 20px; */
+}
+
+.cars_info p {
+    text-align: left;
+    color: #4D4D4D;
+    font-size: 13px;
+    line-height: 15px;
+    margin-top: -15px;
+
+    /* line-height: 20px; */
+}
+
+.cars_img {
+    width: 300px;
+    height: 170px;
+}
+
+.material-symbols-outlined {
+    vertical-align: middle;
+}
+
+#round_chip {
+    color: #BBBBBB;
+    margin-left: 5px;
+    margin-right: 5px;
 }
