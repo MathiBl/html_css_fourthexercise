@@ -7,59 +7,59 @@
     <link rel="stylesheet" href="style.css">
     <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"> -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
 </head>
 <body>
 
+    <header>
+            <a href="bmw_car_page.html">
+                <img class="logo_bmw" src="BMW_Grey-Colour_RGB.SVG.asset.1697707041685.SVG" alt="logo_BMW">
+            </a>
+                <nav class="menu">
+                    <ol>
+                      <a href="">Configuración</a>
+                    </ol>
+                    <ol>
+                      <a href="">Eléctricos</a>
+                    </ol>
+                    <ol>
+                      <a href="">Compra</a>
+                    </ol>
+                    <ol>
+                      <a href="">Más BMW</a>
+                    </ol>
+                  </nav>
+    
+                  <nav class="menu_topright">
+                    <ol>
+                        <a href="">Cliente</a>
+                    </ol>
+                    <ol>
+                        <a href="">Carrito</a>
+                    </ol>
+                    <ol>
+                        <a href="">Mapa</a>
+                    </ol>
+                    <ol>
+                        <a href="">Buscar</a>
+                    </ol>
+                </nav>
+    </header>
+
     <div class="main_container">
-
-       <div class="container_menu">
-        <a href="bmw_car_page.html">
-            <img class="logo_bmw" src="BMW_Grey-Colour_RGB.SVG.asset.1697707041685.SVG" alt="logo_BMW">
-        </a>
-            <nav class="menu">
-                <ol>
-                  <a href="">Configuración</a>
-                </ol>
-                <ol>
-                  <a href="">Eléctricos</a>
-                </ol>
-                <ol>
-                  <a href="">Compra</a>
-                </ol>
-                <ol>
-                  <a href="">Más BMW</a>
-                </ol>
-              </nav>
-
-              <nav class="menu_topright">
-                <ol>
-                    <a href="">Cliente</a>
-                </ol>
-                <ol>
-                    <a href="">Carrito</a>
-                </ol>
-                <ol>
-                    <a href="">Mapa</a>
-                </ol>
-                <ol>
-                    <a href="">Buscar</a>
-                </ol>
-            </nav>
-        </div>
-
         <h1>Encuentra tu BMW</h1>
 
         <div class="container_filters">
             <h3>Filtrar</h3>
             <div class="filters">
-                <button>Híbrido enchufable</button>
-                <button>Eléctrico</button>
-                <button>BMW M</button>
-                <button>BMW i</button>
-                <button>Nuevo</button>
-                <a href="">Mostrar más filtros</a>
+                <button><a href=""><span class="material-symbols-outlined">add</span>Híbrido enchufable</a></button>
+                <button><a href=""><span class="material-symbols-outlined">add</span>Eléctrico</a></button>
+                <button><a href=""><span class="material-symbols-outlined">add</span>BMW M</a></button>
+                <button><a href=""><span class="material-symbols-outlined">add</span>BMW i</a></button>
+                <button><a href=""><span class="material-symbols-outlined">add</span>Nuevo</a></button>
             </div>
-            <p>110 vehículos encontrados</p>
+            <a id="mas_filtros" href=""><span id="arrow" class="material-symbols-outlined">navigate_next</span>Mostrar más filtros</a>
+            <p><b>105</b> vehículos encontrados</p>
         </div>
 
         <div class="car_selection">
@@ -84,7 +84,7 @@
         <div class="container_cars">
 
         <div class="car_category">
-            <h2 id="category_I">BMW i</h2>
+            <h4 class="first_h4" id="category_I">BMW i</h4>
 
             <button>
                 <a class="cars_info" href="">
@@ -179,7 +179,7 @@
         </div>
 
         <div class="car_category">
-            <h2 id="category_X">X</h2>
+            <h4 id="category_X">X</h4>
 
             <button>
                 <a class="cars_info" href="">
@@ -272,7 +272,7 @@
         </div>
 
         <div class="car_category">
-            <h2 id="category_M">M</h2>
+            <h4 id="category_M">M</h4>
 
             <button>
                 <a class="cars_info" href="">
@@ -364,7 +364,7 @@
         </div>
 
         <div class="car_category">
-            <h2 id="category_8">8</h2>
+            <h4 id="category_8">8</h4>
 
             <button>
                 <a class="cars_info" href="">
@@ -435,7 +435,7 @@
 
         <div class="car_category">
 
-            <h2 id="category_7">7</h2>
+            <h4 id="category_7">7</h4>
 
             <button>
                 <a class="cars_info" href="">
@@ -473,7 +473,7 @@
 
         <div class="car_category">
 
-            <h2 id="category_5">5</h2>
+            <h4 id="category_5">5</h4>
 
             <button>
                 <a class="cars_info" href="">
@@ -511,7 +511,7 @@
 
         <div class="car_category">
 
-            <h2 id="category_4">4</h2>
+            <h4 id="category_4">4</h4>
 
             <button>
                 <a class="cars_info" href="">
@@ -582,7 +582,7 @@
 
         <div class="car_category">
 
-            <h2 id="category_3">3</h2>
+            <h4 id="category_3">3</h4>
 
             <button>
                 <a class="cars_info" href="">
@@ -620,7 +620,7 @@
 
         <div class="car_category">
 
-            <h2 id="category_2">2</h2>
+            <h4 id="category_2">2</h4>
 
             <button>
                 <a class="cars_info" href="">
@@ -680,7 +680,7 @@
 
         <div class="car_category">
 
-            <h2 id="category_1">1</h2>
+            <h4 id="category_1">1</h4>
 
             <button>
                 <a class="cars_info" href="">
@@ -706,7 +706,7 @@
         </div>
 
         <div class="car_category">
-            <h2 id="category_Z4">Z4</h2>
+            <h4 id="category_Z4">Z4</h4>
 
             <button>
                 <a class="cars_info" href="">
@@ -732,7 +732,7 @@
         </div>
 
         <div class="car_category">
-            <h2 id="category_Híbridos_Enchufables">Híbridos Enchufables</h2>
+            <h4 id="category_Híbridos_Enchufables">Híbridos Enchufables</h4>
 
             <button>
                 <a class="cars_info" href="">
@@ -813,7 +813,7 @@
         </div>
 
         <div class="car_category">
-            <h2 id="category_Concept_Cars">Concept Cars</h2>
+            <h4 id="category_Concept_Cars">Concept Cars</h4>
 
             <button>
                 <a class="cars_info" href="">
@@ -872,7 +872,7 @@
         </div>
 
         <div class="car_category">
-            <h2 id="category_Protection_Vehicle">Protection Vehicle</h2>
+            <h4 id="category_Protection_Vehicle">Protection Vehicle</h4>
 
             <button>
                 <a class="cars_info" href="">
@@ -885,10 +885,113 @@
                 </a>
             </button>
         </div>
+    </div>
+    <div class="all_categories">
+        <div class="series_bmw">
+        <h2>Todas las series BMW</h2>
+        <nav>
+        <ul>
+            <li><a href=""><p>BMW Serie 1</p><span id="arrow" class="material-symbols-outlined">navigate_next</span></a></li>
+            <li><a href=""><p>BMW Serie 3</p><span id="arrow" class="material-symbols-outlined">navigate_next</span></a></li>
+            <li><a href=""><p>BMW Serie 4</p><span id="arrow" class="material-symbols-outlined">navigate_next</span></a></li>
+            <li><a href=""><p>BMW Serie 5</p><span id="arrow" class="material-symbols-outlined">navigate_next</span></a></li>
+            <li><a href=""><p>BMW Serie 7</p><span id="arrow" class="material-symbols-outlined">navigate_next</span></a></li>
+            <li><a href=""><p>BMW Serie 8</p><span id="arrow" class="material-symbols-outlined">navigate_next</span></a></li>
+            <li><a href=""><p>BMW X</p><span id="arrow" class="material-symbols-outlined">navigate_next</span></a></li>
+            <li><a href=""><p>BMW Z</p><span id="arrow" class="material-symbols-outlined">navigate_next</span></a></li>
+            <li><a href=""><p>BMW i</p><span id="arrow" class="material-symbols-outlined">navigate_next</span></a></li>
+            <li><a href=""><p>BMW M</p><span id="arrow" class="material-symbols-outlined">navigate_next</span></a></li>
 
+            <!-- <div><li><a href="">BMW Serie 3</li><span id="arrow" class="material-symbols-outlined">navigate_next</span></a></div>
+            <div><li><a href="">BMW Serie 4</li><span id="arrow" class="material-symbols-outlined">navigate_next</span></a></div>
+            <div><li>BMW Serie 5</li><span id="arrow" class="material-symbols-outlined">navigate_next</span></div>
+            <div><li>BMW Serie 7</li><span id="arrow" class="material-symbols-outlined">navigate_next</span></div>
+            <div><li>BMW Serie 8</li><span id="arrow" class="material-symbols-outlined">navigate_next</span></div>
+            <div><li>BMW X</li><span id="arrow" class="material-symbols-outlined">navigate_next</span></div>
+            <div><li>BMW Z</li><span id="arrow" class="material-symbols-outlined">navigate_next</span></div>
+            <div><li>BMW i</li><span id="arrow" class="material-symbols-outlined">navigate_next</span></div>
+            <div><li>BMW M</li><span id="arrow" class="material-symbols-outlined">navigate_next</span></div> -->
+        </ul>
+        </nav>
+    </div>
+
+       <div class="carroceria">
+        <h2>Todas los tipos de carrocería</h2>
+        <nav>
+        <ul>
+            <li><a href=""><p>BMW Berlinas</p><span id="arrow" class="material-symbols-outlined">navigate_next</span></a></li>            
+        </ul>
+        </nav>
+    </div>
     </div>
 
     </div>
+
+    <footer>
+        <div class="footer_top">
+            <p id="encuentra_bmw">Encuentra tu BMW</p>
+            <p id="modelos"><a href="">Modelos</a></p>
+        </div>
+
+        <div class="footer_middle">
+        <div class="menu_footer">
+            <nav id="enlaces_interes">
+                <ul>
+                    <h5>Enlaces de interés</h5>
+                    <li><a href="">Newletter</a></li>
+                    <li><a href="">Pide una prueba</a></li>
+                    <li><a href="">Servicio a domicilio</a></li>
+                    <li><a href="">Glosario BMW</a></li>
+                    <li><a href="">BMW.com <span id="arrow_footer" class="material-symbols-outlined">north_east</span></a></li>
+                    <li><a href="">Sostenibilidad</a></li>
+                    <li><a href="">Preguntas frecuentes <span id="arrow_footer" class="material-symbols-outlined">north_east</span></a></li>
+                </ul>
+            </nav>
+
+            <nav id="descubre_bmw">
+                <ul>
+                    <h5>Descubre BMW</h5>
+                    <li><a href="">Gama BMW</a></li>
+                    <li><a href="">Movilidad Eléctrica</a></li>
+                    <li><a href="">Promociones particulares</a></li>
+                    <li><a href="">Promociones Empresas</a></li>
+                    <li><a href="">Noticias</a></li>
+                </ul>
+            </nav>
+            <nav id="contacto">
+                <ul>
+                    <h5>Contacto</h5>
+                    <li><a href="">Particulares y Empresas <span id="arrow_footer" class="material-symbols-outlined">north_east</span></a></li>
+                    <li><a href="">Concesionarios y Talleres <span id="arrow_footer" class="material-symbols-outlined">north_east</span></a></li>
+                    <li><a href="">Empleo</a></li>
+                </ul>
+            </nav>
+        </div>
+
+            <div class="social_buttons">
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-instagram"></a>
+                <a href="#" class="fa fa-youtube"></a>
+            </div>
+        
+        </div>
+        <div class="footer_bottom">
+            <p>&copy BMW AG 2023</p>
+            <nav>
+                <ul>
+                    <li><a href="">Preguntas frecuentes <span id="arrow_footer" class="material-symbols-outlined">north_east</span></a></li>
+                    <li><a href="">Cookies</a></li>
+                    <li><a href="">Aviso legal</a></li>
+                    <li><a href="">Información legal ConnectedDrive</a></li>
+                    <li><a href="">Política de Privacidad</a></li>
+                    <li><a href="">Condiciones de Uso en RR.SS</a></li>
+                    <li><a href="">Política de Privacidad en RR.SS</a></li>
+                </ul>
+            </nav>
+        </div>
+</footer>
+
 
 </body>
 </html>
